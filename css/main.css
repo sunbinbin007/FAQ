@@ -1,0 +1,173 @@
+/*通用样式*/
+html
+{
+	font-size : 20px;
+	height:100%;
+	-webkit-text-size-adjust:none;
+}
+html {
+    font-size : 20px;
+}
+@media only screen and (min-width: 401px){
+    html {
+        font-size: 25px !important;
+    }
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 26.75px !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 30px !important; 
+    }
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 35px !important; 
+    }
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 40px !important; 
+    }
+}
+body
+{
+	height:100%;
+	max-width:980px;
+	min-width:320px;
+	margin:0 auto;
+	color:#000000;
+	padding:0;
+	font:normal 0.8em/1.6,Tahoma,Arial,Roboto,sans-serif;
+	font-family: HelveticaLTStd-BlkCond !important;
+	background-color:#0083D8;
+	-webkit-box-sizing:border-box;
+}
+/*swiper样式*/
+.swiper-container,.swiper-wrapper
+{
+	width: 100%;
+	height: 100%;
+}
+/*pag1样式*/
+#pag1
+{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	-webkit-align-content: space-around;
+	align-content: space-around;
+}
+#role1_box,#role2_box,#role3_box,#role4_box
+{
+	position: relative;
+	display: -webkit-flex;
+	display: flex;
+	width: 8rem;
+	height: 11rem;
+	font-size: 0;
+	background-color: #333;
+}
+/*role样式*/
+#role1,#role2,#role3,#role4
+{
+	display: inline-block;
+	width: 8rem;
+	height: 8rem;
+	background-size: 1000% auto;
+	background-repeat: repeat-x;
+	background-position: 100% 0;
+	position: absolute;
+	bottom: 0;
+}
+#role1
+{
+	background-image: url("../assets/role1.png");
+}
+#role2
+{
+	background-image: url("../assets/role2.png");
+}
+#role3
+{
+	background-image: url("../assets/role3.png");
+}
+#role4
+{
+	background-image: url("../assets/role4.png");
+}
+
+/*role#Font样式*/
+#role1Font,#role2Font,#role3Font,#role4Font
+{
+	width: 4rem;
+	position: absolute;
+	/*top: 0;*/
+	/*left: 0;*/
+}
+#role1Font
+{
+	top: 0.3rem;
+	right: 0.5rem;
+}
+#role2Font
+{
+	top: 0.4rem;
+	left: 1.1rem;
+}
+#role3Font
+{
+	top: 0.1rem;
+	left: 0.1rem;
+}
+#role4Font
+{
+	top: 0.6rem;
+	right: 0rem;
+}
+
+/*circle样式*/
+#circle_box
+{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 14rem;
+	height: 7rem;
+}
+#circle
+{
+	background-image: url("../assets/circle.png");
+	background-repeat: repeat-x;
+	background-size: 1100% auto;
+	background-position: 100% 0;
+	width: 14rem;
+	height: 14rem;
+	position: absolute;
+	top: -2.5rem;
+}
+
+/*font样式*/
+#font
+{
+	width: 75%;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}

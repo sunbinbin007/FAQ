@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>零号线校招</title>
+	<!-- 微信测试时禁止缓存 -->
+<!-- 	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" /> -->
+	<!-- 微信测试时禁止缓存 -->
+	<meta name="viewport" content="width = device-width,initial-scale = 1.0,maximum-scale = 1,minimum-scale = 1,user-scalable = no">
+	<link rel="stylesheet" href="css/swiper-3.2.5.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/main1.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/preload.js"></script>
+</head>
+<body>
+	<div id="progress">
+		<div id="pg_box">
+			<div id="pg">
+				<img src="assets/pg_border.png" style="width: 16rem;height: 3rem;display: block;">
+				<img src="assets/pg1.png" style="top: 0.5rem;left: 0.5rem;">
+				<img src="assets/pg2.png" style="top: 0.5rem;left: 4.2rem;">
+				<img src="assets/pg3.png" style="top: 0.5rem;left: 7.7rem;">
+			</div>
+			<img id="pgNum" src="assets/pg_num0.png" style="position:absolute;margin: auto;top: 2.3rem;left: 0;right: 0;width: 3.8rem;height: 2rem;">
+			<img src="assets/pg_num1.png" style="display: none">
+			<img src="assets/pg_num2.png" style="display: none">
+			<img src="assets/pg_num3.png" style="display: none">
+		</div>
+	</div>
+	<div class="swiper-container">
+		<div id="music_box">
+			<img style="position: relative;" class="music" src="assets/music_on.png">
+			<audio id="myAudio" src="assets/bgMusic.mp3" loop="loop" preload="auto"></audio>
+		</div>
+		<div class="swiper-wrapper">
+			<div class="swiper-slide swiper-no-swiping" id="pag1" date-hash="slide1">
+				<div id="role1_box">
+					<div id="role1" class="ani" swiper-animate-effect="rolemove" swiper-animate-duration="0.8s" swiper-animate-delay="0s"></div>
+					<img src="assets/role1Font.png" alt="" id="role1Font"
+					class="ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="1s">
+				</div>
+				<div id="role2_box">
+					<div id="role2" class="ani" swiper-animate-effect="rolemove" swiper-animate-duration="0.8s" swiper-animate-delay="0.4s"></div>
+					<img src="assets/role2Font.png" alt="" id="role2Font"
+					class="ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="1.4s">
+				</div>
+				<div id="role3_box">
+					<div id="role3" class="ani" swiper-animate-effect="rolemove" swiper-animate-duration="0.8s" swiper-animate-delay="0.8s"></div>
+					<img src="assets/role3Font.png" alt="" id="role3Font"
+					class="ani" swiper-animate-effect="flipInX" swiper-animate-duration="2s" swiper-animate-delay="1.8s">
+				</div>
+				<div id="role4_box">
+					<div id="role4" class="ani" swiper-animate-effect="rolemove" swiper-animate-duration="0.8s" swiper-animate-delay="1.2s"></div>
+					<img src="assets/role4Font.png" alt="" id="role4Font"
+					class="ani" swiper-animate-effect="flipInX" swiper-animate-duration="2s" swiper-animate-delay="2.2s">
+				</div>
+				<div id="circle_box" class="ani" swiper-animate-effect="swing" swiper-animate-duration="1.5s" swiper-animate-delay="5.5s">
+					<div id="circle"  class="ani" swiper-animate-effect="circle" swiper-animate-duration="0.8s" swiper-animate-delay="4s">
+					</div>
+					<img src="assets/font.png" alt="" id="font"
+					class="ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="1.5s" swiper-animate-delay="2.7s">
+				</div>
+			</div>
+
+			<div class="swiper-slide swiper-no-swiping" id="pag2" date-hash="slide2">
+				<div>
+				<img src="assets/frame1-1.png" 
+				style="width: 100%; top: 0.6rem" 
+				class="ani frame" swiper-animate-effect="slideInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+				<img src="assets/frame1-2.png"
+				style="height: 100%; right: 0;"
+				class="ani frame" swiper-animate-effect="slideInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+				<img src="assets/frame1-3.png"
+				style="width: 100%; bottom: 0.4rem;"
+				class="ani frame" swiper-animate-effect="slideInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+				<img src="assets/frame1-4.png"
+				style="height: 100%; left: 0;"
+				class="ani frame" swiper-animate-effect="slideInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+				<img src="assets/frame2-1.png"
+				style="width: 100%; top: 0;"
+				class="ani frame" swiper-animate-effect="slideInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+				<img src="assets/frame2-2.png"
+				style="height: 100%; right: 0;"
+				class="ani frame" swiper-animate-effect="slideInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+				<img src="assets/frame2-3.png"
+				style="width: 100%; bottom: 0;"
+				class="ani frame" swiper-animate-effect="slideInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+				<img src="assets/frame2-4.png"
+				style="height: 100%; left: 0;"
+				class="ani frame" swiper-animate-effect="slideInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+				</div>
+				
+				<div class="view_box iscrollBox">
+					<div>
+						<img src="assets/search1.png"
+						style="height: 2rem;"
+						class="ani" swiper-animate-effect="slideInDown" swiper-animate-duration="0.3s" swiper-animate-delay="1.5s">
+						<img src="assets/search2.png"
+						style="height: 2rem;"
+						class="ani" swiper-animate-effect="slideInDown" swiper-animate-duration="0.3s" swiper-animate-delay="1.6s">
+						<img src="assets/basket.png"
+						style="height: 2rem;"
+						class="ani" swiper-animate-effect="slideInDown" swiper-animate-duration="0.3s" swiper-animate-delay="1.7s">
+						<img src="assets/line1.png"
+						style="width: 100%; height: 1rem;"
+						class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.3s" swiper-animate-delay="1.0s">
+
+						<img src="assets/button1.png"
+						class="ani button" swiper-animate-effect="bounceIn" swiper-animate-duration="0.3s" swiper-animate-delay="2s">
+						<img src="assets/button2.png"
+						class="ani button" swiper-animate-effect="bounceIn" swiper-animate-duration="0.3s" swiper-animate-delay="2.1s">
+						<img src="assets/button3.png"
+						class="ani button" swiper-animate-effect="bounceIn" swiper-animate-duration="0.3s" swiper-animate-delay="2.2s">
+						<img src="assets/button4.png"
+						class="ani button" swiper-animate-effect="bounceIn" swiper-animate-duration="0.3s" swiper-animate-delay="2.3s">
+						<img src="assets/button5.png"
+						class="ani button" swiper-animate-effect="bounceIn" swiper-animate-duration="0.3s" swiper-animate-delay="2.2s">
+						<img src="assets/button6.png"
+						class="ani button" swiper-animate-effect="bounceIn" swiper-animate-duration="0.3s" swiper-animate-delay="2.3s">
+						<img src="assets/button7.png"
+						class="ani button" swiper-animate-effect="bounceIn" swiper-animate-duration="0.3s" swiper-animate-delay="2.4s">
+						<img src="assets/button8.png"
+						class="ani button" swiper-animate-effect="bounceIn" swiper-animate-duration="0.3s" swiper-animate-delay="2.5s">
+						<img src="assets/line2.png"
+						style="width: 100%; height: 1rem;" 
+						class="ani button" swiper-animate-effect="zoomIn" swiper-animate-duration="0.3s" swiper-animate-delay="1.0s">
+
+						<img src="assets/fense1.png" 
+						class="ani fense" swiper-animate-effect="flipInY" swiper-animate-duration="0.7s" swiper-animate-delay="2.3s">
+						<img src="assets/fense-line1.png" 
+						class="ani fense-line" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="0.7s" swiper-animate-delay="2.0s">
+						<img src="assets/fense2.png" 
+						class="ani fense" swiper-animate-effect="flipInX" swiper-animate-duration="0.7s" swiper-animate-delay="2.3s">
+						<img src="assets/fense-line2.png" 
+						class="ani fense-line" swiper-animate-effect="rotateInDownRight" swiper-animate-duration="0.7s" swiper-animate-delay="2.0s">
+						<img src="assets/fense3.png" 
+						class="ani fense" swiper-animate-effect="flipInY" swiper-animate-duration="0.7s" swiper-animate-delay="2.3s">
+						<img src="assets/line3.png" 
+						style="width: 100%; height: 2rem;" 
+						class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.3s" swiper-animate-delay="1.0s">
+
+						<div id="erase" class="ani" swiper-animate-effect="erase" swiper-animate-duration="0.5s" swiper-animate-delay="3.0s">
+							<img src="assets/2016.png" class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.7s" swiper-animate-delay="3.0s">
+						</div>
+
+						<div style="position: relative;width: 100%;">
+							<img id="bottom" src="assets/bottom.png" class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.7s" swiper-animate-delay="3.0s">
+							<div style="left: 1rem;" class="ani btn_box" swiper-animate-effect="tada" swiper-animate-duration="1.7s" swiper-animate-delay="5.0s">
+								<img src="assets/page2Btn1.png" id="page2btn1" 
+								class="ani page2Btn" swiper-animate-effect="bounceIn" swiper-animate-duration="0.7s" swiper-animate-delay="3.5s">
+							</div>
+							<div style="right: 1rem;" class="ani btn_box" swiper-animate-effect="tada" swiper-animate-duration="1.7s" swiper-animate-delay="5.0s">
+								<img src="assets/page2Btn2.png" id="page2btn2" 
+								class="ani page2Btn" swiper-animate-effect="bounceIn" swiper-animate-duration="0.7s" swiper-animate-delay="3.7s">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="swiper-slide swiper-no-swiping" id="pag3" date-hash="slide3">
+				<img src="assets/frame1-1.png" 
+				style="width: 100%; top: 0.6rem" 
+				class="ani frame" swiper-animate-effect="slideInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+				<img src="assets/frame1-2.png"
+				style="height: 100%; right: 0;"
+				class="ani frame" swiper-animate-effect="slideInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+				<img src="assets/frame1-3.png"
+				style="width: 100%; bottom: 0.4rem;"
+				class="ani frame" swiper-animate-effect="slideInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+				<img src="assets/frame1-4.png"
+				style="height: 100%; left: 0;"
+				class="ani frame" swiper-animate-effect="slideInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+				<img src="assets/frame2-1.png"
+				style="width: 100%; top: 0;"
+				class="ani frame" swiper-animate-effect="slideInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+				<img src="assets/frame2-2.png"
+				style="height: 100%; right: 0;"
+				class="ani frame" swiper-animate-effect="slideInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+				<img src="assets/frame2-3.png"
+				style="width: 100%; bottom: 0;"
+				class="ani frame" swiper-animate-effect="slideInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+				<img src="assets/frame2-4.png"
+				style="height: 100%; left: 0;"
+				class="ani frame" swiper-animate-effect="slideInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+				
+				<div class="flexbox-container">
+					<div class="box1">
+						<img src="assets/backBtn_yellow.png" 
+						style="width: 15%;left: 1rem;position: absolute;left: 1rem;"
+						class="ani backbtn" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="1s">
+						<img src="assets/page3-02.png" 
+						style="width: 7rem;height: 1.5rem;"
+						class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.3s">
+						<img src="assets/page3-03.png" 
+						style="width: 100%;height: 0.8rem"
+						class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+						<img src="assets/page3-04.png" 
+						style="width: 100%;height: 0.8rem"
+						class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.7s">
+						<img src="assets/page3-05.png" 
+						style="width: 100%;height: 0.8rem"
+						class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.9s">
+					</div>
+					<div class="box2 iscrollBox" style="-webkit-transform:translate3d(0,0,0);">
+						<div>
+							<img id="pag3Content" src="assets/page3Content.png" style="width: 100%;"
+							class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+						</div>
+					</div>
+					<div class="box3">
+						<img src="assets/page3-10.png" 
+						style="width: 100%;height: 2rem;margin: -0.5rem 0;"
+						class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1s">
+						<img src="assets/page3Button.png" id="page3btn" 
+						style="width: 7rem;height: 3rem;margin-bottom: 0;z-index: 1000;"
+						class="ani" swiper-animate-effect="flipInY" swiper-animate-duration="1s" swiper-animate-delay="1s">
+					</div>
+					<div id="fingerBox" style="width: 3rem;height: 10rem;position: absolute;z-index: 20;right: 1rem;top: 5rem;"
+					class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="3s">
+						<img id="finger" src="assets/finger.png"
+						class="ani" swiper-animate-effect="finger" swiper-animate-duration="3s" swiper-animate-delay="3.5s">
+						<img id="dashedLine" src="assets/dashedLine.png">
+					</div>
+				</div>
+			</div>
+
+			<div class="swiper-slide swiper-no-swiping" id="pag4" date-hash="slide4">
+				<img src="assets/frame1-1.png" 
+				style="width: 100%; top: 0.6rem" 
+				class="ani frame" swiper-animate-effect="slideInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+				<img src="assets/frame1-2.png"
+				style="height: 100%; right: 0;"
+				class="ani frame" swiper-animate-effect="slideInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+				<img src="assets/frame1-3.png"
+				style="width: 100%; bottom: 0.4rem;"
+				class="ani frame" swiper-animate-effect="slideInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+				<img src="assets/frame1-4.png"
+				style="height: 100%; left: 0;"
+				class="ani frame" swiper-animate-effect="slideInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+				<img src="assets/frame2-1.png"
+				style="width: 100%; top: 0;"
+				class="ani frame" swiper-animate-effect="slideInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+				<img src="assets/frame2-2.png"
+				style="height: 100%; right: 0;"
+				class="ani frame" swiper-animate-effect="slideInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+				<img src="assets/frame2-3.png"
+				style="width: 100%; bottom: 0;"
+				class="ani frame" swiper-animate-effect="slideInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+				<img src="assets/frame2-4.png"
+				style="height: 100%; left: 0;"
+				class="ani frame" swiper-animate-effect="slideInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+
+				<div class="flexbox-container">
+					<div class="box1">
+						<img src="assets/careerTitle.png" 
+						class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="1s">
+					</div>
+					<div class="box2 iscrollBox">
+						<div id="cardBox" style="height: 100%;">
+							<img src="assets/card1.png" 
+							class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.8s" swiper-animate-delay="1.5s">
+							<img src="assets/card2.png" 
+							class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.8s" swiper-animate-delay="1.7s">
+							<img src="assets/card3.png" 
+							class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.8s" swiper-animate-delay="1.9s">
+							<img src="assets/card4.png" 
+							class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.8s" swiper-animate-delay="2.1s">
+							<img src="assets/card5.png" 
+							class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.8s" swiper-animate-delay="2.3s">
+							<img src="assets/card6.png" 
+							class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.8s" swiper-animate-delay="2.5s">
+							<img src="assets/card7.png" 
+							class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.8s" swiper-animate-delay="2.7s">
+						</div>
+					</div>
+					<div class="box3">
+						<img src="assets/line.png" style="width: 100%;height: 2rem;margin: -0.5rem 0;"
+						class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.8s">
+						<img id="prevBtn" src="assets/prevBtn.png" 
+						class="ani prevBtn" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="1s">
+						<img id="nextBtn" src="assets/nextBtn.png" 
+						class="ani nextBtn" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="1s">
+					</div>
+				</div>
+				<div id="cardReverse" class="reverse">
+					<img src="assets/card1Reverse.png" usemap="#closeCard">
+					<img src="assets/card2Reverse.png" usemap="#closeCard">
+					<img src="assets/card3Reverse.png" usemap="#closeCard">
+					<img src="assets/card4Reverse.png" usemap="#closeCard">
+					<img src="assets/card5Reverse.png" usemap="#closeCard">
+					<img src="assets/card6Reverse.png" usemap="#closeCard">
+					<img src="assets/card7Reverse.png" usemap="#closeCard">
+					<map name="closeCard" id="closeCard">
+						<area shape="circ" coords="250,25,20" >
+					</map>
+					<img id="deliverBtn" src="assets/deliverBtn.png" >
+				</div>
+			</div>
+
+			<div class="swiper-slide swiper-no-swiping" id="pag5" date-hash="slide5">
+				
+				<img src="assets/frame1-1.png" 
+				style="width: 100%; top: 0.6rem" 
+				class="ani frame" swiper-animate-effect="slideInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+				<img src="assets/frame1-2.png"
+				style="height: 100%; right: 0;"
+				class="ani frame" swiper-animate-effect="slideInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+				<img src="assets/frame1-3.png"
+				style="width: 100%; bottom: 0.4rem;"
+				class="ani frame" swiper-animate-effect="slideInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+				<img src="assets/frame1-4.png"
+				style="height: 100%; left: 0;"
+				class="ani frame" swiper-animate-effect="slideInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+				<img src="assets/frame2-1.png"
+				style="width: 100%; top: 0;"
+				class="ani frame" swiper-animate-effect="slideInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+				<img src="assets/frame2-2.png"
+				style="height: 100%; right: 0;"
+				class="ani frame" swiper-animate-effect="slideInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+				<img src="assets/frame2-3.png"
+				style="width: 100%; bottom: 0;"
+				class="ani frame" swiper-animate-effect="slideInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+				<img src="assets/frame2-4.png"
+				style="height: 100%; left: 0;"
+				class="ani frame" swiper-animate-effect="slideInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+
+				<div class="flexbox-container">
+					<div>
+						<img src="assets/Q&ATitle.png" 
+						style="width: 7rem;height: 3rem;margin-top: 1rem;"
+						class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+					</div>
+					<div class="box2">
+						<img id="QACircle" usemap="#CircleMap" src="assets/Q&ACircle.png" 
+						class="ani" swiper-animate-effect="rotateIn" swiper-animate-duration="1.5s" swiper-animate-delay="1.3s">
+						<map name="CircleMap" id="CircleMap">
+							<area shape="poly"  coords="25,65,120,5,140,135" href="#">
+							<area shape="poly"  coords="120,5,210,28,140,130" href="#">
+							<area shape="poly"  coords="210,28,275,135,140,135" href="#">
+							<area shape="poly"  coords="275,135,230,250,140,135" href="#">
+							<area shape="poly"  coords="230,250,110,270,140,135" href="#">
+							<area shape="poly"  coords="110,270,10,200,140,140" href="#">
+							<area shape="poly"  coords="10,205,25,65,135,135" href="#"> 
+						</map>
+					</div>
+					<div class="box3">
+						<img src="assets/line.png" style="width: 100%;height: 2rem;margin: -0.5rem 0;"
+						class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.8s">
+						<img id="prevBtn" src="assets/prevBtn.png" 
+						class="ani prevBtn" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="1s">
+						<img id="nextBtn" src="assets/nextBtn.png" 
+						class="ani nextBtn" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="1s">
+					</div>
+				</div>
+				<div id="QAreverse" class="reverse">
+					<img src="assets/Q&A1.png" usemap="#closeMap">
+					<img src="assets/Q&A2.png" usemap="#closeMap">
+					<img src="assets/Q&A3.png" usemap="#closeMap">
+					<img src="assets/Q&A4.png" usemap="#closeMap">
+					<img src="assets/Q&A5.png" usemap="#closeMap">
+					<img src="assets/Q&A6.png" usemap="#closeMap1">
+					<img src="assets/Q&A7.png" usemap="#closeMap1">
+					<map id="closeMap" name="closeMap">
+						<area shape="circ" coords="245,75,20">
+					</map>
+					<map id="closeMap1" name="closeMap1">
+						<area shape="circ" coords="240,30,20">
+					</map>
+				</div>
+			</div>
+
+
+			<div class="swiper-slide swiper-no-swiping" id="pag6" date-hash="slide6">
+				
+				<img src="assets/frame1-1.png" 
+				style="width: 100%; top: 0.6rem" 
+				class="ani frame" swiper-animate-effect="slideInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+				<img src="assets/frame1-2.png"
+				style="height: 100%; right: 0;"
+				class="ani frame" swiper-animate-effect="slideInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+				<img src="assets/frame1-3.png"
+				style="width: 100%; bottom: 0.4rem;"
+				class="ani frame" swiper-animate-effect="slideInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+				<img src="assets/frame1-4.png"
+				style="height: 100%; left: 0;"
+				class="ani frame" swiper-animate-effect="slideInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+				<img src="assets/frame2-1.png"
+				style="width: 100%; top: 0;"
+				class="ani frame" swiper-animate-effect="slideInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+				<img src="assets/frame2-2.png"
+				style="height: 100%; right: 0;"
+				class="ani frame" swiper-animate-effect="slideInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+				<img src="assets/frame2-3.png"
+				style="width: 100%; bottom: 0;"
+				class="ani frame" swiper-animate-effect="slideInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+				<img src="assets/frame2-4.png"
+				style="height: 100%; left: 0;"
+				class="ani frame" swiper-animate-effect="slideInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+
+				<img id="backBtn" src="assets/backBtn_yellow.png" 
+				class="ani backbtn" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="0.5s">
+				<img id="page6Bg" src="assets/page6Bg.png" 
+				class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="1.2s">
+				<img id="deliverBtn1" src="assets/page6DeliverBtn.png" 
+				class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" swiper-animate-delay="1.5s">
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/swiper-3.2.5.jquery.min.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <script src="js/iscroll.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+<!-- animation.css中动画tada和swing已被修改,加入了finger -->
